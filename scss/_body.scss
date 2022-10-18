@@ -1,0 +1,443 @@
+/**************** Reset ****************/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/**************** Barra de Navegacion ****************/
+.logo{
+    border-radius: 3em;
+    width: 8.75rem;
+}
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0.6rem;
+    position: relative;
+}
+.navbar ul li::before{
+    background: hsl(137, 20%, 93%);
+    bottom: -12px;
+    content: "";
+    height: 0.25rem;
+    position: absolute;
+    left: 0;
+    transition: 0.4s ease-out;
+    width: 0%;
+}
+.navbar ul li:hover::before{
+    width: 100%;
+}
+.navbar a{
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+
+/**************** Body ****************/
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.274)),
+    url("../img/fondo-pagina.jpg");
+    background-size: cover;
+
+
+
+
+    position: relative;
+    padding-bottom: 0.1em;
+    min-height: 100vh;
+}
+
+
+/**************** Titulo del inicio de PAGINA ****************/
+#encabezado-inicio{
+    color: aqua;
+    font-weight: 700;
+    font-size: 4.375rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+
+/**************** Texto GENERAL ****************/
+.pimg{
+    color: rgb(248, 247, 247);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100;
+    font-size: large;
+}
+.bienvenidos{
+    color: rgb(255, 251, 251);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+h1{
+    color: black;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.color-secundario{
+    color: rgb(7, 7, 7);
+    font-size: 2rem;
+    margin: 7rem;
+    text-align: center;
+}
+.titulo{
+    color: black;
+}
+.quienessomosp{
+    color: black;
+    font-size: 1.5rem;
+    margin: 2%;
+    padding: 5%;
+    text-align: center;
+}
+.h2q{
+    color: black;
+    font-size: xx-large;
+}
+h2{
+    color: black;
+}
+
+
+/**************** Carroulser de Promosiones ****************/
+.carousel-inner img {
+    height: 50rem;
+}
+#carouselExampleCaptions{
+    height: 40%;
+    width: 45%;
+    padding: 3%;
+}
+
+
+/**************** Imagenes Articulos - Imagenes ****************/
+.img-articulos{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+.img-articulos{
+    height: 18.75rem;
+    width: 15.62rem;
+}
+#imgart{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption{
+    text-align: center;
+}
+#imginicio{
+    border-radius: 20%;
+    display: block;
+    height: 60vh;
+    margin: auto;
+    padding: 3.75rem;
+}
+.imgpagos{
+    height: 20rem;
+    width: 35rem;
+}
+
+
+/**************** Articulos con GRID ****************/
+.grid-loyout{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 0.2fr 1fr 1fr;
+    justify-content: space-around;
+    text-align: center;
+}
+.h1art{
+    grid-column: 1 / span 2;
+}
+.caja1{
+    align-items: center;
+    background: rgb(66,220,222);
+    background: linear-gradient(0deg, rgba(66,220,222,1) 6%, rgba(69,45,253,0.20211834733893552) 62%);
+    width: 40.62rem;
+}
+.caja2{
+    align-items: center;
+    background: rgb(66,220,222);
+    background: linear-gradient(0deg, rgba(66,220,222,1) 6%, rgba(69,45,253,0.20211834733893552) 62%);
+    width: 40.62rem;
+}
+.caja3{
+    align-items: center;
+    background: rgb(66,220,222);
+    background: linear-gradient(0deg, rgba(66,220,222,1) 6%, rgba(69,45,253,0.20211834733893552) 62%);
+    width: 40.62rem;
+}
+.caja4{
+    background: rgb(66,220,222);
+    background: linear-gradient(0deg, rgba(66,220,222,1) 6%, rgba(69,45,253,0.20211834733893552) 62%);
+    width: 40.62rem;
+}
+
+/* GoogleMAP */
+.googlemap{
+    display: block;
+    margin: 5%;
+    text-align: center;
+}
+
+
+/**************** FORMULARIO ****************/
+.contenedorcontacto{
+    border-radius: 5rem;
+    background-color: #00ffff41;
+    width: 31.25rem;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+}
+
+/**************** FOOTER ****************/
+.redes-contenedor{
+    align-items: flex-end;
+    display: flex;
+    justify-content: right;
+}
+.redes-contenedor ul li{
+    display: inline-block;
+    text-align: right;
+}
+.redes-contenedor ul li a{
+    background-color: #333;
+    border:  solid white 1px;
+    color: #fff;
+    display: block;
+    font-size: 0.93rem;
+}
+.redes-contenedor ul li a i{
+padding: 1px 10px;
+}
+#footer{
+    bottom: 0;
+    width: 100%;
+}
+
+footer{
+    align-items: center;
+    background-color: rgb(50, 93, 117);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 0.62rem;
+}
+footer p{
+    border:  solid white 1px;
+    background-color: rgba(83, 88, 92, 0.532);
+}
+#footer{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+/**************** Mediacueris ****************/
+@media (max-width: 768px){
+        /* body general */
+        body{
+            width: 100%;
+            font-size: 0.5rem;
+        }
+        /* Articulos */
+        .grid-loyout{
+            grid-template-columns: auto;
+            grid-template-rows: 0.5fr;
+        }
+        .h1art{
+            grid-column: 1;
+        }
+        .pimg{
+            font-size: small;
+            justify-content: center;
+        }
+        /* googlemap */
+        .googlemap{
+            margin: auto;
+        }
+}
+
+@media (max-width: 576px){
+    /* body general */
+    body{
+        width: 100%;
+        font-size: 0.2rem;
+    }
+    /* Articulos */
+    .grid-loyout{
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    .h1art{
+        grid-column: 1;
+    }
+    .pimg{
+        font-size: small;
+        justify-content: center;
+        padding: 10%;
+    }
+    .googlemap{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 480px){
+    /* body general */
+    body{
+        width: 100%;
+        font-size: 0.5rem;
+    }
+    /* Articulos */
+    .grid-loyout{
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    .h1art{
+        grid-column: 1;
+    }
+    .pimg{
+        font-size: small;
+        justify-content: center;
+    }
+    /* googlemap */
+    .googlemap{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 375px){
+    /* body general */
+    body{
+        width: 100%;
+    }
+    .carousel-inner img{
+        height: 10rem;
+        width: 10rem;
+    }
+    /* Articulos */
+    .grid-loyout{
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    .h1art{
+        grid-column: 1;
+    }
+    .pimg{
+        font-size: small;
+        justify-content: center;
+    }
+    /* googlemap */
+    .googlemap{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 320px){
+    /* body general */
+    body{
+        width: 100%;
+    }
+    /* Articulos */
+    .grid-loyout{
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    .h1art{
+        grid-column: 1;
+    }
+    .pimg{
+        font-size: small;
+        justify-content: center;
+    }
+    /* googlemap */
+    .googlemap{
+        margin: auto;
+    }
+    #footer{
+        position: relative;
+    }
+    /* carrusel */
+    .carousel-inner img{
+        height: 40rem;
+    }
+    #carouselExampleCaptions{
+        width: 90%;
+        height: 54%;
+        padding: 3%;
+        }
+    /* texto general */
+    .color-secundario{
+        font-size: 0.9rem;
+    }
+    #imginicio{
+        height: 40vh;
+    }
+    .caja1{
+        width: 20rem;
+    }
+    .caja2{
+        width: 20rem;
+    }
+    .caja3{
+        width: 20rem;
+    }
+    .caja4{
+        width: 20rem;
+    }
+    .contenedorcontacto{
+        text-align: center;
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 990px) and (min-width: 770px){
+    /* body general */
+    body{
+        font-size: 0.5rem;
+        width: 100%;
+    }
+    /* Articulos */
+    .grid-loyout{
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    .h1art{
+        grid-column: 1;
+    }
+    .pimg{
+        font-size: small;
+        justify-content: center;
+    }
+    /* googlemap */
+    .googlemap{
+        margin: auto;
+    }
+    /* carrusel */
+    .carousel-inner img{
+        height: 40rem;
+    }
+    #footer{
+        position: relative;
+    }
+    #carouselExampleCaptions{
+        width: 90%;
+        height: 54%;
+        padding: 3%;
+        }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "pranayamaarmonia",
+  "version": "1.0.0",
+  "description": "Pre Entrega 3 Leonel Muller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-patch scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonelmuller/PranayamaArmonia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonelmuller/PranayamaArmonia/issues"
+  },
+  "homepage": "https://github.com/leonelmuller/PranayamaArmonia#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
