@@ -1,0 +1,94 @@
+/**************** Mediacueris ****************/
+@media screen and (max-width: 990px) and (min-width: 770px){
+    /* body general */
+    body{
+        font-size: 0.5rem;
+        width: 100%;
+    }
+    /* Articulos */
+    .grid-loyout{
+        grid-template-columns: auto;
+    }
+    .h1art{
+        grid-column: 1;
+    }
+    .pimg{
+        font-size: small;
+        justify-content: center;
+    }
+    /* googlemap */
+    .googlemap{
+        margin: auto;
+    }
+    /* carrusel */
+    .carousel-inner img{
+        height: 40rem;
+    }
+    #footer{
+        position: relative;
+    }
+    #carouselExampleCaptions{
+        width: 90%;
+        height: 54%;
+        padding: 3%;
+        }
+}
+
+@media (max-width: 768px){
+        /* Articulos */
+        .grid-loyout{
+            grid-template-rows: 0.5fr;
+        }
+}
+
+@media (max-width: 576px){
+    /* body general */
+    body{
+        font-size: 0.2rem;
+    }
+    /* Articulos */
+    .pimg{
+        padding: 10%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    /* body general */
+    body{
+        font-size: 0.5rem;
+    }
+    /* googlemap */
+    .googlemap{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .carousel-inner img{
+        height: 10rem;
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width: 320px){
+    #footer{
+        position: relative;
+    }
+    /* carrusel */
+    .carousel-inner img{
+        height: 40rem;
+    }
+    /* texto general */
+    .color-secundario{
+        font-size: 0.9rem;
+    }
+    #imginicio{
+        height: 40vh;
+    }
+    .cajas{
+        width: 20rem;
+    .contenedorcontacto{
+        text-align: center;
+        width: 20rem;
+    }
+}
