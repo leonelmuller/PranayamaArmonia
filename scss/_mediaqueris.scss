@@ -1,5 +1,5 @@
 /**************** Mediacueris ****************/
-@media screen and (max-width: 990px) and (min-width: 770px){
+@media screen and (max-width: 990px){
     /* body general */
     body{
         font-size: 0.5rem;
@@ -9,8 +9,14 @@
     .grid-loyout{
         grid-template-columns: auto;
     }
+    .cajas{
+        width: auto;
+    }
     .h1art{
         grid-column: 1;
+    }
+    h1{
+        font-size: 1.5rem;
     }
     .pimg{
         font-size: small;
@@ -55,11 +61,15 @@
 @media screen and (max-width: 480px){
     /* body general */
     body{
-        font-size: 0.5rem;
+        font-size: 0.8rem;
     }
     /* googlemap */
     .googlemap{
         margin: auto;
+    }
+    .form-control {
+        width: 50%;
+        justify-content: center;
     }
 }
 
@@ -75,19 +85,20 @@
         position: relative;
     }
     /* carrusel */
-    .carousel-inner img{
+    .carousel-inner img {
         height: 40rem;
     }
     /* texto general */
-    .color-secundario{
+    .color-secundario {
         font-size: 0.9rem;
     }
-    #imginicio{
+    #imginicio {
         height: 40vh;
     }
-    .cajas{
+    .cajas {
         width: 20rem;
-    .contenedorcontacto{
+    }
+    .contenedorcontacto {
         text-align: center;
         width: 20rem;
     }

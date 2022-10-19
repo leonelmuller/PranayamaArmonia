@@ -1,23 +1,25 @@
 /**************** FOOTER ****************/
 
-footer{
+footer {
     align-items: center;
     background-color: rgb(50, 93, 117);
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     padding: 0.62rem;
-    p{
+    p {
         border:  solid white 1px;
         background-color: rgba(83, 88, 92, 0.532);
+        font-size: 0.9rem;
     }
-    .redes-contenedor{
+    .redes-contenedor {
         align-items: flex-end;
         display: flex;
         justify-content: right;
         ul li{
             display: inline-block;
-            text-align: right;
+            text-align: center;
+            width: 2rem;
         }
         ul li a{
             background-color: #333;
@@ -28,8 +30,7 @@ footer{
         }
     }
 }
-
-#footer{
+#footer {
     bottom: 0;
     width: 100%;
     bottom: 0;

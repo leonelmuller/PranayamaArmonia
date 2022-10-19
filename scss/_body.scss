@@ -5,7 +5,6 @@
     padding: 0;
 }
 
-
 /**************** Body ****************/
 body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.274)),
@@ -16,13 +15,6 @@ body{
     min-height: 100vh;
 }
 
-
-
-
-
-
-
-
 /**************** Titulo del inicio de PAGINA ****************/
 #encabezado-inicio{
     color: aqua;
@@ -31,52 +23,6 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
 }
-
-
-/**************** Texto GENERAL ****************/
-.pimg{
-    color: rgb(248, 247, 247);
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 100;
-    font-size: large;
-}
-.bienvenidos{
-    color: rgb(255, 251, 251);
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1rem;
-    font-weight: bold;
-    text-align: center;
-}
-h1{
-    color: black;
-    font-size: 3rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-}
-.color-secundario{
-    color: rgb(7, 7, 7);
-    font-size: 2rem;
-    margin: 7rem;
-    text-align: center;
-}
-.titulo{
-    color: black;
-}
-.quienessomosp{
-    color: black;
-    font-size: 1.5rem;
-    margin: 2%;
-    padding: 5%;
-    text-align: center;
-}
-.h2q{
-    color: black;
-    font-size: xx-large;
-}
-h2{
-    color: black;
-}
-
 
 /**************** Carroulser de Promosiones ****************/
 .carousel-inner img {
@@ -87,40 +33,6 @@ h2{
     width: 45%;
     padding: 3%;
 }
-
-
-/**************** Imagenes Articulos - Imagenes ****************/
-.img-articulos{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    padding: 20px;
-}
-.img-articulos{
-    height: 18.75rem;
-    width: 15.62rem;
-}
-#imgart{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-figcaption{
-    text-align: center;
-}
-#imginicio{
-    border-radius: 20%;
-    display: block;
-    height: 60vh;
-    margin: auto;
-    padding: 3.75rem;
-}
-.imgpagos{
-    height: 20rem;
-    width: 35rem;
-}
-
 
 /**************** Articulos con GRID ****************/
 .grid-loyout{

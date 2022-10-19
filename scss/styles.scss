@@ -1,16 +1,12 @@
 // Import de css de boostrap
 @import "bootstrap/bootstrap.scss";
-@import "nav";
-@import "footer";
 
 
 /**************** Comienzo de mis Estilos ****************/
 /**************** Body ****************/
-body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.274)),
-    url("../img/fondo-pagina.jpg");
-    background-size: cover;
-    position: relative;
-    padding-bottom: 0.1em;
-    min-height: 100vh;
-}
+@import "nav";
+@import "body";
+@import "imgenerales";
+@import "textogeneral";
+@import "footer";
+@import "mediaqueris";

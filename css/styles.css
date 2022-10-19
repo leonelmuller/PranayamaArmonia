@@ -6352,8 +6352,8 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-
 /**************** Comienzo de mis Estilos ****************/
+/**************** Body ****************/
 /**************** Barra de Navegacion ****************/
 .logo {
   border-radius: 3em;
@@ -6384,11 +6384,246 @@ textarea.form-control-lg {
   font-size: 1.2rem;
   text-decoration: none; }
 
+/**************** Reset ****************/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
 /**************** Body ****************/
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.274)), url("../img/fondo-pagina.jpg");
   background-size: cover;
   position: relative;
   padding-bottom: 0.1em;
-  min-height: 100vh;
-}
+  min-height: 100vh; }
+
+/**************** Titulo del inicio de PAGINA ****************/
+#encabezado-inicio {
+  color: aqua;
+  font-weight: 700;
+  font-size: 4.375rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center; }
+
+/**************** Carroulser de Promosiones ****************/
+.carousel-inner img {
+  height: 50rem; }
+
+#carouselExampleCaptions {
+  height: 40%;
+  width: 45%;
+  padding: 3%; }
+
+/**************** Articulos con GRID ****************/
+.grid-loyout {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 0.2fr 1fr 1fr;
+  justify-content: space-around;
+  text-align: center; }
+
+.h1art {
+  grid-column: 1 / span 2; }
+
+.cajas {
+  background: linear-gradient(0deg, #42dcde 6%, rgba(69, 45, 253, 0.202118) 62%);
+  width: 40.62rem; }
+
+/* GoogleMAP */
+.googlemap {
+  display: block;
+  margin: 5%;
+  text-align: center; }
+
+/**************** FORMULARIO ****************/
+.contenedorcontacto {
+  border-radius: 5rem;
+  background-color: #00ffff41;
+  width: 31.25rem;
+  margin: auto;
+  padding: 2%;
+  text-align: center; }
+
+/**************** Imagenes Articulos - Imagenes ****************/
+.img-articulos {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  height: 18.75rem;
+  width: 15.62rem; }
+
+#imgart {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+#imginicio {
+  border-radius: 20%;
+  display: block;
+  height: 60vh;
+  margin: auto;
+  padding: 3.75rem; }
+
+figcaption {
+  text-align: center; }
+
+.imgpagos {
+  height: 20rem;
+  width: 35rem; }
+
+/**************** Texto GENERAL ****************/
+.pimg {
+  color: #f8f7f7;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 100;
+  font-size: large; }
+
+.bienvenidos {
+  color: #fffbfb;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center; }
+
+h1, .h1 {
+  color: black;
+  font-size: 3rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center; }
+
+.color-secundario {
+  color: #070707;
+  font-size: 2rem;
+  margin: 7rem;
+  text-align: center; }
+
+.titulo {
+  color: black; }
+
+.quienessomosp {
+  color: black;
+  font-size: 1.5rem;
+  margin: 2%;
+  padding: 5%;
+  text-align: center; }
+
+.h2q {
+  color: black;
+  font-size: xx-large; }
+
+h2, .h2 {
+  color: black; }
+
+/**************** FOOTER ****************/
+footer {
+  align-items: center;
+  background-color: #325d75;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 0.62rem; }
+  footer p {
+    border: solid white 1px;
+    background-color: rgba(83, 88, 92, 0.532);
+    font-size: 0.9rem; }
+  footer .redes-contenedor {
+    align-items: flex-end;
+    display: flex;
+    justify-content: right; }
+    footer .redes-contenedor ul li {
+      display: inline-block;
+      text-align: center;
+      width: 2rem; }
+    footer .redes-contenedor ul li a {
+      background-color: #333;
+      border: solid white 1px;
+      color: #fff;
+      display: block;
+      font-size: 0.93rem; }
+
+#footer {
+  bottom: 0;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  width: 100%; }
+
+/**************** Mediacueris ****************/
+@media screen and (max-width: 990px) {
+  /* body general */
+  body {
+    font-size: 0.5rem;
+    width: 100%; }
+  /* Articulos */
+  .grid-loyout {
+    grid-template-columns: auto; }
+  .cajas {
+    width: auto; }
+  .h1art {
+    grid-column: 1; }
+  h1, .h1 {
+    font-size: 1.5rem; }
+  .pimg {
+    font-size: small;
+    justify-content: center; }
+  /* googlemap */
+  .googlemap {
+    margin: auto; }
+  /* carrusel */
+  .carousel-inner img {
+    height: 40rem; }
+  #footer {
+    position: relative; }
+  #carouselExampleCaptions {
+    width: 90%;
+    height: 54%;
+    padding: 3%; } }
+
+@media (max-width: 768px) {
+  /* Articulos */
+  .grid-loyout {
+    grid-template-rows: 0.5fr; } }
+
+@media (max-width: 576px) {
+  /* body general */
+  body {
+    font-size: 0.2rem; }
+  /* Articulos */
+  .pimg {
+    padding: 10%; } }
+
+@media screen and (max-width: 480px) {
+  /* body general */
+  body {
+    font-size: 0.8rem; }
+  /* googlemap */
+  .googlemap {
+    margin: auto; }
+  .form-control {
+    width: 50%;
+    justify-content: center; } }
+
+@media screen and (max-width: 375px) {
+  .carousel-inner img {
+    height: 10rem;
+    width: 10rem; } }
+
+@media screen and (max-width: 320px) {
+  #footer {
+    position: relative; }
+  /* carrusel */
+  .carousel-inner img {
+    height: 40rem; }
+  /* texto general */
+  .color-secundario {
+    font-size: 0.9rem; }
+  #imginicio {
+    height: 40vh; }
+  .cajas {
+    width: 20rem; }
+  .contenedorcontacto {
+    text-align: center;
+    width: 20rem; } }
