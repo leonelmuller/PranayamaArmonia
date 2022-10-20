@@ -6359,30 +6359,29 @@ textarea.form-control-lg {
   border-radius: 3em;
   width: 8.75rem; }
 
-.navbar ul li {
-  display: inline-block;
-  list-style: none;
-  margin: 0.6rem;
-  position: relative; }
-
-.navbar ul li::before {
-  background: #eaf1ec;
-  bottom: -12px;
-  content: "";
-  height: 0.25rem;
-  position: absolute;
-  left: 0;
-  transition: 0.4s ease-out;
-  width: 0%; }
-
-.navbar ul li:hover::before {
-  width: 100%; }
-
-.navbar ul li a {
-  color: #fff;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 1.2rem;
-  text-decoration: none; }
+.navbar {
+  padding: 2%; }
+  .navbar ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0.6rem;
+    position: relative; }
+  .navbar ul li::before {
+    background: #eaf1ec;
+    bottom: -12px;
+    content: "";
+    height: 0.25rem;
+    position: absolute;
+    left: 0;
+    transition: 0.4s ease-out;
+    width: 0%; }
+  .navbar ul li:hover::before {
+    width: 100%; }
+  .navbar ul li a {
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none; }
 
 /**************** Reset ****************/
 * {
@@ -6411,39 +6410,101 @@ body {
   height: 50rem; }
 
 #carouselExampleCaptions {
-  height: 40%;
-  width: 45%;
-  padding: 3%; }
+  height: 30%;
+  width: 35%; }
 
 /**************** Articulos con GRID ****************/
 .grid-loyout {
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: 0.2fr 1fr 1fr;
+  grid-template-rows: 0.3fr 1fr 1fr;
   justify-content: space-around;
   text-align: center; }
+  .grid-loyout .h1art {
+    grid-column: 1 / span 2; }
+  .grid-loyout .cajas {
+    background: linear-gradient(0deg, #42dcde 6%, #452dfd34 62%);
+    width: 38rem; }
 
-.h1art {
-  grid-column: 1 / span 2; }
+/**************** PROMOS ****************/
 
-.cajas {
-  background: linear-gradient(0deg, #42dcde 6%, rgba(69, 45, 253, 0.202118) 62%);
-  width: 40.62rem; }
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
+.container-xxl {
+  margin-bottom: 5rem; }
+  .container-fluid .col-md-12, .container-sm .col-md-12, .container-md .col-md-12, .container-lg .col-md-12, .container-xl .col-md-12, .container-xxl .col-md-12 {
+    margin-bottom: 5rem; }
 
-/* GoogleMAP */
+/**************** GOOGLEMAP ****************/
 .googlemap {
   display: block;
   margin: 5%;
   text-align: center; }
 
-/**************** FORMULARIO ****************/
+/**************** CONTACTO ****************/
 .contenedorcontacto {
   border-radius: 5rem;
   background-color: #00ffff41;
   width: 31.25rem;
   margin: auto;
   padding: 2%;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 3%; }
+
+/**************** ANIMACIONES ****************/
+div .imagen-mov {
+  animation-name: entrada-lateral;
+  animation-duration: 4s; }
+
+@keyframes entrada-lateral {
+  0% {
+    transform: translateX(-400px); }
+  100% {
+    transform: translate(0); } }
+
+/**************** BOTON WHATSAPP ****************/
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 60px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100; }
+  .float .float:hover {
+    text-decoration: none;
+    color: #24b158;
+    background-color: #fff; }
+  .float .my-float {
+    margin-top: 15px; }
+
+/**************** RRSS ****************/
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: hwb(60 25% 74%/0.521);
+    color: #fff;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.192);
+    transition: all .4s ease-in-out; }
+  .buttons a:hover {
+    transform: scale(1.2); }
 
 /**************** Imagenes Articulos - Imagenes ****************/
 .img-articulos {
@@ -6461,7 +6522,6 @@ body {
   margin-right: auto; }
 
 #imginicio {
-  border-radius: 20%;
   display: block;
   height: 60vh;
   margin: auto;
@@ -6506,8 +6566,7 @@ h1, .h1 {
 .quienessomosp {
   color: black;
   font-size: 1.5rem;
-  margin: 2%;
-  padding: 5%;
+  padding: 2%;
   text-align: center; }
 
 .h2q {
@@ -6560,10 +6619,10 @@ footer {
   /* Articulos */
   .grid-loyout {
     grid-template-columns: auto; }
-  .cajas {
-    width: auto; }
-  .h1art {
-    grid-column: 1; }
+    .grid-loyout .h1art {
+      grid-column: 1; }
+    .grid-loyout .cajas {
+      width: auto; }
   h1, .h1 {
     font-size: 1.5rem; }
   .pimg {
@@ -6599,12 +6658,26 @@ footer {
   /* body general */
   body {
     font-size: 0.8rem; }
+  
+  .container-fluid,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl,
+  .container-xxl {
+    margin-bottom: 1rem; }
+    .container-fluid .col-md-12, .container-sm .col-md-12, .container-md .col-md-12, .container-lg .col-md-12, .container-xl .col-md-12, .container-xxl .col-md-12 {
+      margin-bottom: 1rem; }
   /* googlemap */
   .googlemap {
     margin: auto; }
-  .form-control {
-    width: 50%;
-    justify-content: center; } }
+  .contenedorcontacto {
+    width: 20rem; }
+    .contenedorcontacto .form-control {
+      width: 50%;
+      margin-left: 80px; }
+    .contenedorcontacto .form-select {
+      width: 50%; } }
 
 @media screen and (max-width: 375px) {
   .carousel-inner img {
@@ -6619,11 +6692,4 @@ footer {
     height: 40rem; }
   /* texto general */
   .color-secundario {
-    font-size: 0.9rem; }
-  #imginicio {
-    height: 40vh; }
-  .cajas {
-    width: 20rem; }
-  .contenedorcontacto {
-    text-align: center;
-    width: 20rem; } }
+    font-size: 1rem; } }

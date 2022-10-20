@@ -29,29 +29,36 @@ body{
     height: 50rem;
 }
 #carouselExampleCaptions{
-    height: 40%;
-    width: 45%;
-    padding: 3%;
+    height: 30%;
+    width: 35%;
 }
 
 /**************** Articulos con GRID ****************/
-.grid-loyout{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 0.2fr 1fr 1fr;
-    justify-content: space-around;
-    text-align: center;
-}
-.h1art{
-    grid-column: 1 / span 2;
-}
-.cajas{
-    background: linear-gradient(0deg, rgba(66,220,222,1) 6%, rgba(69,45,253,0.20211834733893552) 62%);
-    width: 40.62rem;
+    .grid-loyout{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 0.3fr 1fr 1fr;
+        justify-content: space-around;
+        text-align: center;
+    .h1art{
+        grid-column: 1 / span 2;
+    }
+    .cajas{
+        background: linear-gradient(0deg, rgba(66,220,222,1) 6%, #452dfd34 62%);
+        width: 38rem;
+    }
 }
 
 
-/* GoogleMAP */
+/**************** PROMOS ****************/
+.container-fluid {
+        margin-bottom: 5rem;
+    .col-md-12 {
+        margin-bottom: 5rem;
+    }
+}
+
+/**************** GOOGLEMAP ****************/
 .googlemap{
     display: block;
     margin: 5%;
@@ -59,7 +66,7 @@ body{
 }
 
 
-/**************** FORMULARIO ****************/
+/**************** CONTACTO ****************/
 .contenedorcontacto{
     border-radius: 5rem;
     background-color: #00ffff41;
@@ -67,4 +74,67 @@ body{
     margin: auto;
     padding: 2%;
     text-align: center;
+    margin-bottom: 3%;
+}
+
+
+/**************** ANIMACIONES ****************/
+div .imagen-mov {
+        animation-name: entrada-lateral;
+        animation-duration: 4s;
+    @keyframes entrada-lateral {
+        0% {
+        transform: translateX(-400px);
+        }
+        100% {
+        transform: translate(0)
+        }	
+    }
+}
+
+/**************** BOTON WHATSAPP ****************/
+.float{
+	position: fixed;
+	width:60px;
+	height:60px;
+	bottom:60px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+    .float:hover {
+        text-decoration: none;
+        color: #24b158;
+        background-color:#fff;
+    }
+    .my-float{
+        margin-top:15px;
+    }
+}
+
+/**************** RRSS ****************/
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        text-decoration: none;
+        font-size: 28px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        background: hwb(60 25% 74% / 0.521);
+        color: #fff;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.192);
+        transition: all .4s ease-in-out;
+    }
+    a:hover{
+        transform: scale(1.2);
+    }
 }
