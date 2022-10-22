@@ -14,7 +14,7 @@
         .cajas{
         width: auto;
     }
-    }
+}
     h1{
         font-size: 1.5rem;
     }
@@ -25,10 +25,6 @@
     /* googlemap */
     .googlemap{
         margin: auto;
-    }
-    /* carrusel */
-    .carousel-inner img{
-        height: 40rem;
     }
     #footer{
         position: relative;
@@ -69,6 +65,9 @@
         margin-bottom: 1rem;
     }
 }
+    .color-secundario {
+        font-size: 1rem;
+    }
     /* googlemap */
     .googlemap{
         margin: auto;
@@ -85,23 +84,8 @@
     }
 }
 
-@media screen and (max-width: 375px){
-    .carousel-inner img{
-        height: 10rem;
-        width: 10rem;
-    }
-}
-
 @media screen and (max-width: 320px){
     #footer{
         position: relative;
-    }
-    /* carrusel */
-    .carousel-inner img {
-        height: 40rem;
-    }
-    /* texto general */
-    .color-secundario {
-        font-size: 1rem;
     }
 }

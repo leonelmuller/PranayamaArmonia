@@ -6406,9 +6406,6 @@ body {
   text-align: center; }
 
 /**************** Carroulser de Promosiones ****************/
-.carousel-inner img {
-  height: 50rem; }
-
 #carouselExampleCaptions {
   height: 30%;
   width: 35%; }
@@ -6536,23 +6533,26 @@ figcaption {
 
 /**************** Texto GENERAL ****************/
 .pimg {
-  color: #f8f7f7;
+  color: #fff;
   font-family: 'Courier New', Courier, monospace;
   font-size: 100;
   font-size: large; }
 
 .bienvenidos {
-  color: #fffbfb;
+  color: #fff;
   font-family: 'Courier New', Courier, monospace;
   font-size: 1rem;
   font-weight: bold;
   text-align: center; }
 
 h1, .h1 {
-  color: black;
+  color: #fff;
   font-size: 3rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center; }
+
+h2, .h2 {
+  color: #fff; }
 
 .color-secundario {
   color: #070707;
@@ -6560,21 +6560,11 @@ h1, .h1 {
   margin: 7rem;
   text-align: center; }
 
-.titulo {
-  color: black; }
-
 .quienessomosp {
-  color: black;
+  color: #fff;
   font-size: 1.5rem;
   padding: 2%;
   text-align: center; }
-
-.h2q {
-  color: black;
-  font-size: xx-large; }
-
-h2, .h2 {
-  color: black; }
 
 /**************** FOOTER ****************/
 footer {
@@ -6631,9 +6621,6 @@ footer {
   /* googlemap */
   .googlemap {
     margin: auto; }
-  /* carrusel */
-  .carousel-inner img {
-    height: 40rem; }
   #footer {
     position: relative; }
   #carouselExampleCaptions {
@@ -6668,6 +6655,8 @@ footer {
     margin-bottom: 1rem; }
     .container-fluid .col-md-12, .container-sm .col-md-12, .container-md .col-md-12, .container-lg .col-md-12, .container-xl .col-md-12, .container-xxl .col-md-12 {
       margin-bottom: 1rem; }
+  .color-secundario {
+    font-size: 1rem; }
   /* googlemap */
   .googlemap {
     margin: auto; }
@@ -6679,17 +6668,6 @@ footer {
     .contenedorcontacto .form-select {
       width: 50%; } }
 
-@media screen and (max-width: 375px) {
-  .carousel-inner img {
-    height: 10rem;
-    width: 10rem; } }
-
 @media screen and (max-width: 320px) {
   #footer {
-    position: relative; }
-  /* carrusel */
-  .carousel-inner img {
-    height: 40rem; }
-  /* texto general */
-  .color-secundario {
-    font-size: 1rem; } }
+    position: relative; } }
