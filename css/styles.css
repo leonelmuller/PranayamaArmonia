@@ -6019,7 +6019,7 @@ div .imagen-mov {
 /**************** Texto GENERAL ****************/
 .bienvenidos {
   color: #fff;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1rem;
   font-weight: bold;
   text-align: center; }
@@ -6027,7 +6027,7 @@ div .imagen-mov {
 h1 {
   color: #fff;
   font-size: 2rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center; }
 
 h2 {
@@ -6138,6 +6138,9 @@ p {
   height: 15rem;
   width: 29rem; }
 
+.ppagos {
+  font-family: Georgia, "Times New Roman", Times, serif; }
+
 /**************** Carroulser de Promosiones ****************/
 #carouselExampleCaptions {
   height: 22%;
@@ -6147,6 +6150,7 @@ p {
 .quienessomosp {
   color: #fff;
   font-size: 1.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
   padding: 2%; }
 
 /**************** GOOGLEMAP ****************/

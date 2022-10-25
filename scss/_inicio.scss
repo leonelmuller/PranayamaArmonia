@@ -53,7 +53,7 @@ div .imagen-mov {
 /**************** Texto GENERAL ****************/
 .bienvenidos {
     color: $colortexto;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: $formato-letra;
     font-size: 1rem;
     font-weight: bold;
     text-align: center;
@@ -61,7 +61,7 @@ div .imagen-mov {
 h1 {
     color: $colortexto;
     font-size: 2rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: $formato-letra;
     text-align: center;
 }
 h2 {

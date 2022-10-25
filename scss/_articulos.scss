@@ -15,8 +15,7 @@
             }
         }
     .cajas {
-        background: linear-gradient(0deg, rgba(66,220,222,1) 6%, #452dfd34 62%);
-        width: 34rem;
+        @include cajas-articulos
         }
     .img-articulos {
         align-items: center;

@@ -1,1 +1,7 @@
 $colortexto: #fff;
+$formato-letra: Georgia, 'Times New Roman', Times, serif;
+
+@mixin cajas-articulos {
+    background: linear-gradient(0deg, rgba(66,220,222,1) 6%, #452dfd34 62%);
+    width: 34rem;
+}
