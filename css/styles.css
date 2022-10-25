@@ -5945,7 +5945,8 @@ textarea.form-control-lg {
     display: none !important; } }
 
 /**************** Comienzo de mis Estilos ****************/
-/**************** Body ****************/
+/**************** VARIABLES ****************/
+/**************** HEADER ****************/
 /**************** Barra de Navegacion ****************/
 .logo {
   border-radius: 2em;
@@ -5975,6 +5976,7 @@ textarea.form-control-lg {
     font-size: 1rem;
     text-decoration: none; }
 
+/**************** BODY ****************/
 /**************** Reset ****************/
 * {
   box-sizing: border-box;
@@ -6032,10 +6034,8 @@ h2 {
   color: #fff; }
 
 .color-secundario {
-  color: #070707;
-  font-size: 1rem;
-  margin: 7rem;
-  text-align: center; }
+  font-size: 1.5rem;
+  margin: 3rem; }
 
 /**************** BOTON WHATSAPP ****************/
 .float {
@@ -6141,9 +6141,8 @@ h2 {
 
 .quienessomosp {
   color: #fff;
-  font-size: 1rem;
-  padding: 2%;
-  text-align: center; }
+  font-size: 1.5rem;
+  padding: 2%; }
 
 /**************** GOOGLEMAP ****************/
 .googlemap {
@@ -6154,6 +6153,7 @@ h2 {
     .googlemap .googlemap {
       margin: auto; } }
 
+/**************** FOOTER ****************/
 /**************** FOOTER ****************/
 footer {
   align-items: center;
@@ -6188,6 +6188,7 @@ footer {
   position: absolute;
   width: 100%; }
 
+/**************** MEDIAQUERIES ****************/
 /**************** Mediacueris ****************/
 @media screen and (max-width: 990px) {
   /* body general */

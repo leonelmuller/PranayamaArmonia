@@ -3,14 +3,22 @@
 
 
 /**************** Comienzo de mis Estilos ****************/
-/**************** Body ****************/
+/**************** VARIABLES ****************/
 @import "variables";
+
+/**************** HEADER ****************/
 @import "nav";
+
+/**************** BODY ****************/
 @import "inicio";
 @import "articulos";
 @import "contacto";
 @import "pagos";
 @import "promociones";
 @import "quienessomos";
+
+/**************** FOOTER ****************/
 @import "footer";
+
+/**************** MEDIAQUERIES ****************/
 @import "mediaqueries";
