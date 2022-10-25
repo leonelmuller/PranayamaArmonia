@@ -6037,6 +6037,9 @@ h2 {
   font-size: 1.5rem;
   margin: 3rem; }
 
+p {
+  color: #fff; }
+
 /**************** BOTON WHATSAPP ****************/
 .float {
   position: fixed;
@@ -6051,12 +6054,14 @@ h2 {
   font-size: 30px;
   box-shadow: 2px 2px 3px #999;
   z-index: 100; }
-  .float .float:hover {
-    text-decoration: none;
-    color: #24b158;
-    background-color: #fff; }
-  .float .my-float {
-    margin-top: 15px; }
+
+.my-float {
+  margin-top: 15px; }
+
+.float:hover {
+  text-decoration: none;
+  color: #24b158;
+  background-color: #fff; }
 
 /**************** Articulos con GRID ****************/
 .grid-loyout {

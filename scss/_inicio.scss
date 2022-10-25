@@ -71,6 +71,9 @@ h2 {
     font-size: 1.5rem;
     margin: 3rem;
 }
+p {
+    color: $colortexto;
+}
 
 
 /**************** BOTON WHATSAPP ****************/
@@ -87,12 +90,13 @@ h2 {
     font-size:30px;
 	box-shadow: 2px 2px 3px #999;
     z-index:100;
-    .float:hover {
-        text-decoration: none;
-        color: #24b158;
-        background-color:#fff;
-    }
-    .my-float {
-        margin-top:15px;
-    }
+}
+.my-float {
+    margin-top: 15px;
+}
+
+.float:hover {
+    text-decoration: none;
+    color: #24b158;
+    background-color:#fff;
 }
