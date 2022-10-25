@@ -1,0 +1,100 @@
+/**************** Reset ****************/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/**************** Body ****************/
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.274)),
+    url("../img/fondo-pagina.jpg");
+    background-size: cover;
+    position: relative;
+    padding-bottom: 0.1em;
+    min-height: 100vh;
+}
+
+
+/**************** Titulo del inicio de PAGINA ****************/
+#encabezado-inicio{
+    color: aqua;
+    font-weight: 700;
+    font-size: 4.375rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+
+/**************** ANIMACIONES ****************/
+div .imagen-mov {
+    animation-name: entrada-lateral;
+    animation-duration: 4s;
+    @keyframes entrada-lateral {
+        0% {
+        transform: translateX(-400px);
+        }
+        100% {
+        transform: translate(0)
+        }	
+    }
+}
+
+
+#imginicio{
+    display: block;
+    height: 60vh;
+    margin: auto;
+    padding: 3.75rem;
+}
+
+
+/**************** Texto GENERAL ****************/
+.bienvenidos {
+    color: $colortexto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+h1 {
+    color: $colortexto;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h2 {
+    color: $colortexto;
+}
+.color-secundario {
+    color: rgb(7, 7, 7);
+    font-size: 1rem;
+    margin: 7rem;
+    text-align: center;
+}
+
+
+/**************** BOTON WHATSAPP ****************/
+.float {
+	position: fixed;
+	width:60px;
+	height:60px;
+	bottom:60px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+    .float:hover {
+        text-decoration: none;
+        color: #24b158;
+        background-color:#fff;
+    }
+    .my-float {
+        margin-top:15px;
+    }
+}
