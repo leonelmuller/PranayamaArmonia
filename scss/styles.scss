@@ -4,7 +4,9 @@
 
 /**************** Comienzo de mis Estilos ****************/
 /**************** VARIABLES ****************/
-@import "variables";
+@import "variables/variables";
+@import "variables/extend";
+@import "variables/mixins";
 
 /**************** HEADER ****************/
 @import "nav";

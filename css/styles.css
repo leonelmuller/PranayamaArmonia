@@ -6069,15 +6069,10 @@ p {
   grid-template-columns: auto auto;
   grid-template-rows: 0.3fr 1fr 1fr;
   justify-content: space-around;
+  padding: 8px;
   text-align: center; }
-  @media screen and (max-width: 990px) {
-    .grid-loyout {
-      grid-template-columns: auto; } }
   .grid-loyout .h1art {
     grid-column: 1 / span 2; }
-    @media screen and (max-width: 990px) {
-      .grid-loyout .h1art {
-        grid-column: 1; } }
   .grid-loyout .cajas {
     background: linear-gradient(0deg, #42dcde 6%, #452dfd34 62%);
     width: 34rem; }
@@ -6086,7 +6081,7 @@ p {
     display: flex;
     justify-content: center;
     height: 100vh;
-    padding: 20px;
+    padding: 8px;
     height: 18.75rem;
     width: 15.62rem; }
   .grid-loyout figcaption {

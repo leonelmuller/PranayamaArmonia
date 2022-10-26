@@ -4,25 +4,18 @@
     grid-template-columns: auto auto;
     grid-template-rows: 0.3fr 1fr 1fr;
     justify-content: space-around;
+    padding: $spacing+3;
     text-align: center;
-    @media screen and (max-width: 990px){
-        grid-template-columns: auto;
-    }
     .h1art {
         grid-column: 1 / span 2;
-        @media screen and (max-width: 990px){
-            grid-column: 1;
-            }
         }
     .cajas {
         @include cajas-articulos
-        }
+    }
     .img-articulos {
-        align-items: center;
-        display: flex;
-        justify-content: center;
+        @include flex;
         height: 100vh;
-        padding: 20px;
+        padding: $spacing+3;
         height: 18.75rem;
         width: 15.62rem;
     }

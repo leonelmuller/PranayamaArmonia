@@ -17,9 +17,9 @@
     a {
         text-decoration: none;
         font-size: 28px;
-        width: 60px;
-        height: 60px;
-        line-height: 60px;
+        width: $wid*6;
+        height: $heig*6;
+        line-height: $heig*6;
         text-align: center;
         background: hwb(60 25% 74% / 0.521);
         color: #fff;

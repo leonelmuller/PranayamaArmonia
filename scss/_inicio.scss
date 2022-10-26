@@ -79,9 +79,9 @@ p {
 /**************** BOTON WHATSAPP ****************/
 .float {
 	position: fixed;
-	width:60px;
-	height:60px;
-	bottom:60px;
+	width: $wid*6;
+	height: $heig*6;
+	bottom: $heig*6;
 	right:40px;
 	background-color:#25d366;
 	color:#FFF;
