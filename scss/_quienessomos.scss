@@ -1,18 +1,22 @@
-.quienessomosp{
-    color: $colortexto;
-    font-size: 1.5rem;
-    font-family: $formato-letra;
-    padding: 2%;
-}
-
 /**************** GOOGLEMAP ****************/
 .googlemap{
     display: block;
     margin: 5%;
     text-align: center;
+    .mapita {
+        width: 50%;
+        height: 25rem;
+    }
     @media screen and (max-width: 990px){
     .googlemap{
         margin: auto;
         }
     }
+}
+
+.quienessomosp{
+    color: $colortexto;
+    font-size: 1.5rem;
+    font-family: $formato-letra;
+    padding: 2%;
 }

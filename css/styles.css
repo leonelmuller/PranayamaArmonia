@@ -1990,7 +1990,7 @@ textarea.form-control-lg {
   --bs-btn-color: #198754;
   --bs-btn-border-color: #198754;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #198754;
+  --bs-btn-hover-bg: hsla(212, 62%, 46%, 0.76);
   --bs-btn-hover-border-color: #198754;
   --bs-btn-focus-shadow-rgb: 25, 135, 84;
   --bs-btn-active-color: #fff;
@@ -5946,6 +5946,27 @@ textarea.form-control-lg {
 
 /**************** Comienzo de mis Estilos ****************/
 /**************** VARIABLES ****************/
+/**************** Card's Promociones ****************/
+.card, .cardpromocion {
+  display: flex;
+  text-align: center;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-bottom: 5rem; }
+
+.cajitapromo, .cardpromocion div {
+  background-color: rgba(6, 7, 45, 0.678);
+  margin: 1%;
+  padding: 2%;
+  border-radius: 1rem; }
+
+.titulo-promo, .cardpromocion h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0.5rem; }
+
+.ptext, .cardpromocion p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
 /**************** HEADER ****************/
 /**************** Barra de Navegacion ****************/
 .logo {
@@ -6130,6 +6151,7 @@ p {
 
 /**************** Pagos ****************/
 .imgpagos {
+  background-color: hwb(0 0% 100%/0.835);
   height: 15rem;
   width: 29rem; }
 
@@ -6142,20 +6164,23 @@ p {
   width: 28%;
   margin-bottom: 5rem; }
 
-.quienessomosp {
-  color: #fff;
-  font-size: 1.5rem;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  padding: 2%; }
-
 /**************** GOOGLEMAP ****************/
 .googlemap {
   display: block;
   margin: 5%;
   text-align: center; }
+  .googlemap .mapita {
+    width: 50%;
+    height: 25rem; }
   @media screen and (max-width: 990px) {
     .googlemap .googlemap {
       margin: auto; } }
+
+.quienessomosp {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 2%; }
 
 /**************** FOOTER ****************/
 /**************** FOOTER ****************/
@@ -6188,9 +6213,7 @@ footer {
 #footer {
   bottom: 0;
   width: 100%;
-  bottom: 0;
-  position: absolute;
-  width: 100%; }
+  position: absolute; }
 
 /**************** MEDIAQUERIES ****************/
 /**************** Mediacueris ****************/
@@ -6220,6 +6243,10 @@ footer {
     width: 90%;
     height: 54%;
     padding: 3%; }
+  .cardpromocion {
+    align-items: center;
+    flex-direction: column;
+    font-size: 1rem; }
   .color-secundario {
     margin: 3rem; }
   #imginicio {
@@ -6234,7 +6261,7 @@ footer {
 @media (max-width: 576px) {
   /* body general */
   body {
-    font-size: 0.2rem; }
+    font-size: 1rem; }
   /* Articulos */
   .pimg {
     padding: 10%; } }

@@ -1,1 +1,23 @@
 // Extend's
+/**************** Card's Promociones ****************/
+
+.card {
+    display: flex;
+    text-align: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.cajitapromo {
+    background-color: hsla(239, 77%, 10%, 0.678);
+    margin: 1%;
+    padding: 2%;
+    border-radius: 1rem;
+}
+.titulo-promo {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0.5rem;
+}
+.ptext {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -4,3 +4,16 @@
     width: 28%;
     margin-bottom: 5rem;
 }
+
+.cardpromocion {
+    @extend .card;
+    div {
+        @extend .cajitapromo;
+    }
+    h2 {
+        @extend .titulo-promo;
+    }
+    p {
+        @extend .ptext;
+    }
+}

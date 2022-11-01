@@ -34,6 +34,11 @@
         height: 54%;
         padding: 3%;
     }
+    .cardpromocion {
+        align-items: center;
+        flex-direction: column;
+        font-size: 1rem;
+    }
     .color-secundario {
             margin: 3rem;
     }
@@ -53,7 +58,7 @@
 @media (max-width: 576px) {
     /* body general */
     body {
-        font-size: 0.2rem;
+        font-size: 1rem;
     }
     /* Articulos */
     .pimg {
