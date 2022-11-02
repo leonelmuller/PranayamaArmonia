@@ -7,8 +7,10 @@
 
 .cardpromocion {
     @extend .card;
+    margin-bottom: 5rem;
     div {
         @extend .cajitapromo;
+        border-radius: 1rem;
     }
     h2 {
         @extend .titulo-promo;

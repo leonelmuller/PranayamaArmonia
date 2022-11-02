@@ -1990,7 +1990,7 @@ textarea.form-control-lg {
   --bs-btn-color: #198754;
   --bs-btn-border-color: #198754;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: hsla(212, 62%, 46%, 0.76);
+  --bs-btn-hover-bg: #198754;
   --bs-btn-hover-border-color: #198754;
   --bs-btn-focus-shadow-rgb: 25, 135, 84;
   --bs-btn-active-color: #fff;
@@ -5951,14 +5951,12 @@ textarea.form-control-lg {
   display: flex;
   text-align: center;
   flex-direction: row-reverse;
-  justify-content: center;
-  margin-bottom: 5rem; }
+  justify-content: center; }
 
 .cajitapromo, .cardpromocion div {
   background-color: rgba(6, 7, 45, 0.678);
   margin: 1%;
-  padding: 2%;
-  border-radius: 1rem; }
+  padding: 2%; }
 
 .titulo-promo, .cardpromocion h2 {
   font-family: Arial, Helvetica, sans-serif;
@@ -6163,6 +6161,11 @@ p {
   height: 22%;
   width: 28%;
   margin-bottom: 5rem; }
+
+.cardpromocion {
+  margin-bottom: 5rem; }
+  .cardpromocion div {
+    border-radius: 1rem; }
 
 /**************** GOOGLEMAP ****************/
 .googlemap {
